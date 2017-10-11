@@ -79,6 +79,7 @@ return [
     */
 
     'locale' => 'en',
+    'locales' => ['en' => 'English', 'sv' => 'Swedish'],
 
     /*
     |--------------------------------------------------------------------------
@@ -225,7 +226,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        'MultiLang' => Longman\LaravelMultiLang\Facades\MultiLang::class,
     ],
 
 ];
