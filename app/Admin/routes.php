@@ -13,7 +13,3 @@ Route::group([
     $router->get('/', 'HomeController@index');
 
 });
-
-MultiLang::routeGroup(function($router) {
-    require app_path('Http/routes.php');
-});
